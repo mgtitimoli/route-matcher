@@ -1,0 +1,22 @@
+{
+  "name": "route-matcher",
+  "version": "0.0.1",
+  "description": "A tiny route matcher",
+  "main": "src/main/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha src/test"
+  },
+  "keywords": [
+    "router",
+    "route matcher"
+  ],
+  "author": "Mauro Titimoli",
+  "license": "ISC",
+  "dependencies": {
+    "object.assign": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  }
+}
