@@ -102,7 +102,7 @@ function createRouteMatcher(route) {
 
         ensureRoute(routeAndQuery);
 
-        routeAndQuery = routeAndQuery.split("?");
+        routeAndQuery = routeAndQuery.split("?", 2);
 
         routeParams = matchRoute(
             parsed.routeRegEx,
